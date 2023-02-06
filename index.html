@@ -8,26 +8,35 @@
       rel="stylesheet"
     />
     <link href="https://fonts.cdnfonts.com/css/amsipro-bold" rel="stylesheet" />
+    <script defer src="./js/app.js"></script>
     <title>cinnamonscript</title>
   </head>
+
   <body>
+    <!-- START SIDE NAVIGATION BAR -->
     <header>
       <div class="side-nav">
-        <h1 class="header-title">Simon Lan</h1>
+        <h1 class="header-title">
+          Simon <br />
+          Lan
+        </h1>
         <ul>
           <li><a href="#about">About</a></li>
+          <li><a href="#about">Skills</a></li>
           <!-- <li><a href="#projects">Projects</a></li> -->
           <li><a href="#education">Education</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
     </header>
+    <!-- END SIDE NAVIGATION BAR -->
 
     <main>
-      <section id="about" class="section">
+      <!-- START ABOUT SECTION -->
+      <section id="about" class="hidden">
         <h2>About</h2>
         <div class="about-section">
-          <div class="about-blurb">
+          <div class="about-blurb hidden">
             <p>
               G'day - I'm Simon Lan. I'm a Brisbane-based developer with both
               undergraduate as well as graduate certifications from QUT.
@@ -41,18 +50,59 @@
               always been important to me. Nowadays, it's my focus to bring your
               vision to clarity in development projects.
             </p>
-            <p>My skills are:</p>
-            <p>Front End: HTML, CSS, Bootstrap, Flask, React.js</p>
-            <p>Back End: Node.js</p>
-            <p>Languages: Javascript, Python, C#</p>
           </div>
-          <div class="headshot-img">
+          <div class="headshot-img hidden">
             <img src="./img/headshot.png" alt="headshot" />
           </div>
         </div>
       </section>
+      <!-- END ABOUT SECTION -->
 
-      <!--       <section id="projects" class="section">
+      <section id="about" class="hidden">
+        <h2>Skills</h2>
+        <div class="skills">
+          <h3>Front End</h3>
+          <div class="front-end">
+            <div class="skills hidden">
+              <img src="./img/css.png" alt="css" />
+            </div>
+            <div class="skills hidden">
+              <img src="./img/html5.png" alt="html" />
+            </div>
+            <div class="skills hidden">
+              <img src="./img/bootstrap.png" alt="bootstrap" />
+            </div>
+            <div class="skills hidden">
+              <img src="./img/flask.png" alt="flask" />
+            </div>
+          </div>
+          <h3>Back End</h3>
+          <div class="back-end">
+            <div class="skills hidden">
+              <img src="./img/react.png" alt="react" />
+            </div>
+            <div class="skills hidden">
+              <img src="./img/nodejs.png" alt="node" />
+            </div>
+            <div class="skills hidden">
+              <img src="./img/sqlite.png" alt="sqlite" />
+            </div>
+          </div>
+          <h3>Languages</h3>
+          <div class="languages">
+            <div class="skills hidden">
+              <img src="./img/c-sharp.png" alt="c-sharp" />
+            </div>
+            <div class="skills hidden">
+              <img src="./img/javascript.png" alt="javascript" />
+            </div>
+            <div class="skills hidden">
+              <img src="./img/python.png" alt="python" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--       <section id="projects" class="hidden">
         <h2>Projects</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor,
@@ -61,10 +111,11 @@
         </p>
       </section> -->
 
-      <section id="education" class="section">
+      <!-- START EDUCATION SECTION -->
+      <section id="education" class="hidden">
         <h2>Education</h2>
         <div class="education-section">
-          <div class="education-blurb">
+          <div class="education-blurb hidden">
             <h3>Postgraduate</h3>
             <p>Graduate Certificate of Information Technology</p>
             <p>Masters of Optometry</p>
@@ -72,20 +123,25 @@
             <p>Bachelor of Vision Science</p>
           </div>
 
-          <div class="qut-logo">
+          <div class="qut-logo hidden">
             <img src="./img/qut-logo.jpg" alt="qut-logo" />
           </div>
         </div>
       </section>
+      <!-- END EDUCATION SECTION -->
 
-      <section id="contact" class="section">
+      <!-- START CONTACT SECTION -->
+      <section id="contact" class="hidden">
         <h2>Contact</h2>
         <p>
           Let's get in touch - the best way is via e-mail at
           hello@simonlan.com.au
         </p>
       </section>
+      <!-- END CONTACT SECTION -->
     </main>
+
+    <!-- START FOOTER SECTION -->
     <footer>
       <p>Copyright © 2023 cinnamonscript</p>
       <p>
@@ -106,7 +162,71 @@
         But the ultimate goal is to create truly satisfying and captivating
         experience.
       </p>
+
+      <p>
+        Attributions:
+        <a href="https://iconscout.com/icons/html5" target="_blank"
+          >Html5 Icon</a
+        >
+        by
+        <a href="https://iconscout.com/contributors/unicons">Unicons Font</a> on
+        <a href="https://iconscout.com">IconScout</a>
+        <a href="https://iconscout.com/icons/css" target="_blank">Css Icon</a>
+        by
+        <a href="https://iconscout.com/contributors/pixel-icons"
+          >Pixel Icons;</a
+        >
+        on <a href="https://iconscout.com">IconScout</a>
+        <a href="https://iconscout.com/icons/bootstrap" target="_blank"
+          >Bootstrap Icon</a
+        >
+        by
+        <a href="https://iconscout.com/contributors/icon-mafia" target="_blank"
+          >Icon Mafia</a
+        >
+        <a href="https://iconscout.com/icons/flask" target="_blank"
+          >Flask Icon</a
+        >
+        by
+        <a href="https://iconscout.com/contributors/icon-mafia" target="_blank"
+          >Icon Mafia</a
+        >
+        <a href="https://iconscout.com/icons/c" target="_blank">C Icon</a> by
+        <a href="https://iconscout.com/contributors/fengquanli" target="_blank"
+          >fengquan</a
+        >
+        <a href="https://iconscout.com/icons/python" target="_blank"
+          >Python Icon</a
+        >
+        by
+        <a href="https://iconscout.com/contributors/icon-mafia">Icon Mafia;</a>
+        on <a href="https://iconscout.com">IconScout</a>
+        <a href="https://iconscout.com/icons/javascript" target="_blank"
+          >Javascript Icon</a
+        >by
+        <a href="https://iconscout.com/contributors/icon-mafia">Icon Mafia;</a>
+        on <a href="https://iconscout.com">IconScout</a>
+        <a href="https://iconscout.com/icons/nodejs" target="_blank"
+          >Nodejs Icon</a
+        >
+        by
+        <a href="https://iconscout.com/contributors/icon-mafia" target="_blank"
+          >Icon Mafia</a
+        >
+        <a href="https://iconscout.com/icons/react" target="_blank"
+          >React Icon</a
+        >
+        by
+        <a href="https://iconscout.com/contributors/icon-mafia" target="_blank"
+          >Icon Mafia</a
+        >
+        <a href="https://iconscout.com/icons/sqlite" target="_blank"
+          >Sqlite Icon</a
+        >by
+        <a href="https://iconscout.com/contributors/icon-mafia">Icon Mafia</a>
+        on <a href="https://iconscout.com">IconScout</a>
+      </p>
     </footer>
-    <script src="./js/script.js"></script>
+    <!-- END FOOTER SECTION -->
   </body>
 </html>
