@@ -12,6 +12,7 @@ const observer = new IntersectionObserver((entries) => {
     console.log(entry);
     if (entry.isIntersecting) {
       entry.target.classList.add("show");
+      console.log(entry.target.id);
     }
     /*     else {
       entry.target.classList.remove("show");
@@ -22,3 +23,25 @@ const observer = new IntersectionObserver((entries) => {
 const hiddenElements = document.querySelectorAll(".hidden");
 
 hiddenElements.forEach((el) => observer.observe(el));
+
+const sections = document.querySelectorAll("section");
+const navList = document.querySelectorAll(".side-nav ul li a");
+
+window.addEventListener("scroll", () => {
+  let current = "";
+
+  sections.forEach((section) => {
+    const sectionTop = section.offsetTop;
+    const sectionHeight = section.clientHeight;
+    if (scrollY >= sectionTop - sectionHeight / 3) {
+      current = section.getAttribute("id");
+    }
+  });
+  console.log(current);
+  navList.forEach((a) => {
+    a.classList.remove("active");
+    if (a.classList.contains(current)) {
+      a.classList.add("active");
+    }
+  });
+});
