@@ -163,7 +163,6 @@ section {
     box-shadow: 0 0.5rem 1rem rgb(15, 71, 59);
 }
 
-
 .skills h3 {
     font-weight:initial;
     text-align: center;
@@ -184,13 +183,6 @@ justify-content: center;
 
 .education-section {
     display: flex;
-}
-
-.education-blurb {
-    flex: 3.5;
-    float: left;
-    width: 500px;
-    padding-left: 20px;
 }
 
 .grid {
