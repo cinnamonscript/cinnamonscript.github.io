@@ -15,16 +15,18 @@
   <body>
     <!-- START SIDE NAVIGATION BAR -->
     <header>
-      <div class="side-nav">
+      <div class="side-nav full">
+        <div class="nav-toggle" onclick="toggleNav()"> &#9776; </div>
+        <!-- <button class="toggle-btn" onclick="toggleNav()">&#9776;</button> -->
         <div class="sl-logo-img">
           <img src="./img/flc_design20230207113576.png" alt="sl-logo" />
         </div>
         <ul>
-          <li><a class="about" href="#about">About</a></li>
-          <li><a class="skills" href="#skills">Skills</a></li>
+          <li><a class="about" href="#about" onclick="removeToggle()">About</a></li>
+          <li><a class="skills" href="#skills"onclick="removeToggle()">Skills</a></li>
           <!-- <li><a href="#projects">Projects</a></li> -->
-          <li><a class="education" href="#education">Education</a></li>
-          <li><a class="contact" href="#contact">Contact</a></li>
+          <li><a class="education" href="#education" onclick="removeToggle()">Education</a></li>
+          <li><a class="contact" href="#contact" onclick="removeToggle()">Contact</a></li>
         </ul>
       </div>
     </header>

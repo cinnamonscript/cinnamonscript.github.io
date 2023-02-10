@@ -1,10 +1,34 @@
+const navBar = document.querySelectorAll(".side-nav");
+const navFullBar = document.querySelectorAll(".side-nav-full");
+
 function toggleNav() {
-  var nav = document.getElementById("nav");
-  if (nav.style.display === "block") {
-    nav.style.display = "none";
-  } else {
-    nav.style.display = "block";
-  }
+  navBar.forEach((a) => {
+    if (a.classList.contains("side-nav-full")) {
+      a.classList.remove("side-nav-full");
+      a.classList.add("side-nav");
+    } else {
+      a.classList.add("side-nav-full");
+      a.classList.remove("side-nav");
+    }
+  });
+  navFullBar.forEach((a) => {
+    if (a.classList.contains("side-nav-full")) {
+      a.classList.remove("side-nav-full");
+      a.classList.add("side-nav");
+    } else {
+      a.classList.add("side-nav-full");
+      a.classList.remove("side-nav");
+    }
+  });
+}
+
+function removeToggle() {
+  navBar.forEach((a) => {
+    if (a.classList.contains("side-nav-full")) {
+      a.classList.remove("side-nav-full");
+      a.classList.add("side-nav");
+    }
+  });
 }
 
 const observer = new IntersectionObserver((entries) => {
