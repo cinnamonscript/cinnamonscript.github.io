@@ -12,12 +12,12 @@ The website was built using the following technologies:
 * JavaScript
 
 ## Features
-A clean and modern design
-Responsive layout for optimal viewing on different devices
-A section for showcasing my skills, including both technical and soft skills
-A portfolio section featuring my past projects and their descriptions
-An about me section to provide a brief overview of my background and experiences
-Contact form for visitors to get in touch with me
+* A clean and modern design
+* Responsive layout for optimal viewing on different devices
+* A section for showcasing my technical skills
+* An education section featuring my past achievements
+* An about me section to provide a brief overview of my background and experiences
+* Contact details for visitors to get in touch with me
 
 ## Getting Started
 If you would like to make changes to the website or run it locally on your machine, follow these steps:
@@ -33,13 +33,10 @@ If you would like to make changes to the website or run it locally on your machi
 ## Contributing
 If you would like to contribute to this repository, please follow these steps:
 
-Fork the repository
-
-Clone the repository to your local machine
-
-Make your changes
-
-Submit a pull request
+1. Fork the repository
+2. Clone the repository to your local machine
+3. Make your changes
+4. Submit a pull request
 
 ## Contact
 For any questions or feedback, feel free to reach out to me via email at hello@simonlan.com.au
